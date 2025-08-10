@@ -31,17 +31,13 @@ const Footer = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 group">
+              <a 
+                href={companyInfo.instagram} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 group"
+              >
                 <Instagram className="w-5 h-5 text-gray-300 group-hover:text-white" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 group">
-                <Facebook className="w-5 h-5 text-gray-300 group-hover:text-white" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 group">
-                <Linkedin className="w-5 h-5 text-gray-300 group-hover:text-white" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-orange-600 transition-colors duration-300 group">
-                <Twitter className="w-5 h-5 text-gray-300 group-hover:text-white" />
               </a>
             </div>
           </div>
