@@ -56,7 +56,7 @@ export const services = [
     title: "Captação e Edição de Imagens/Vídeos",
     description: "Produção audiovisual completa com captação profissional, edição criativa e entrega otimizada para suas campanhas.",
     icon: "Camera",
-    features: ["Fotografia Profissional", "Produção de Vídeo", "Edição Criativa", "Motion Graphics", "Drone"],
+    features: ["Fotografia Profissional", "Produção de Vídeo", "Edição Criativa", "Motion Graphics"],
     briefingForm: [
       { id: 1, question: "Que tipo de produção você precisa?", type: "checkbox", options: ["Fotografia", "Vídeo", "Motion Graphics", "Animação"], required: true },
       { id: 2, question: "Qual será o uso do material?", type: "checkbox", options: ["Redes Sociais", "Site", "Campanha Publicitária", "E-commerce", "Evento"], required: true },
@@ -73,15 +73,15 @@ export const services = [
 export const portfolioItems = [
   {
     id: 1,
-    title: "Renovação de Marca - TechStart",
+    title: "Renovação de Marca - PriStore",
     category: "Identidade Visual",
-    description: "Criação completa de identidade visual para startup de tecnologia, incluindo logo, manual de marca e aplicações.",
-    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb",
-    tags: ["Branding", "Logo Design", "Startup"]
+    description: "Criação completa de identidade visual para loja de roupas, incluindo logo, manual de marca e aplicações comerciais.",
+    image: "/logo-pristore.png",
+    tags: ["Branding", "Logo Design", "Roupas"]
   },
   {
     id: 2,
-    title: "Campanha Digital - FashionCo",
+    title: "Campanha Digital - PriStore",
     category: "Redes Sociais",
     description: "Gestão completa de redes sociais com aumento de 300% no engajamento e 150% em vendas online.",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb",
@@ -89,18 +89,18 @@ export const portfolioItems = [
   },
   {
     id: 3,
-    title: "E-commerce - GreenLife",
+    title: "E-commerce - Vamo",
     category: "Desenvolvimento Web",
     description: "Desenvolvimento de loja virtual completa com integração de pagamentos e sistema de gestão.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb",
+    image: "/logo-vamo.png",
     tags: ["E-commerce", "Web Design", "UX/UI"]
   },
   {
     id: 4,
-    title: "Produção Audiovisual - RestaurantePlus",
+    title: "Produção Audiovisual - Sorveteria Tropical",
     category: "Vídeo e Fotografia",
-    description: "Produção completa de vídeos promocionais e fotografia gastronômica para rede de restaurantes.",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb",
+    description: "Produção completa de vídeos promocionais e fotografia gastronômica para sorveteria.",
+    image: "/xis.jpg",
     tags: ["Vídeo", "Fotografia", "Gastronomia"]
   }
 ];
@@ -109,25 +109,25 @@ export const testimonials = [
   {
     id: 1,
     name: "Maria Silva",
-    company: "TechStart",
-    role: "CEO",
+    company: "PriStore",
+    role: "Proprietária",
     content: "A Agência VOKE transformou completamente nossa identidade visual. O resultado superou todas as expectativas e nossa marca ganhou uma presença muito mais profissional no mercado.",
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face&cs=tinysrgb"
   },
   {
     id: 2,
     name: "João Santos",
-    company: "FashionCo",
+    company: "Vamo",
     role: "Diretor de Marketing",
-    content: "Excelente trabalho na gestão das nossas redes sociais. Em 6 meses, nosso engajamento triplicou e as vendas online aumentaram significativamente. Equipe muito profissional!",
+    content: "Excelente trabalho no desenvolvimento do nosso e-commerce. Em 6 meses, nossas vendas online cresceram significativamente. Equipe muito profissional!",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face&cs=tinysrgb"
   },
   {
     id: 3,
     name: "Ana Costa",
-    company: "GreenLife",
+    company: "Sorveteria Tropical",
     role: "Proprietária",
-    content: "O site que a VOKE desenvolveu para nossa loja é simplesmente perfeito. Interface intuitiva, carregamento rápido e um design que representa exatamente nossa marca.",
+    content: "A produção audiovisual que a VOKE fez para nossa sorveteria é simplesmente perfeita. As fotos e vídeos aumentaram muito nosso movimento nas redes sociais.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face&cs=tinysrgb"
   }
 ];
@@ -140,6 +140,8 @@ export const companyInfo = {
   vision: "Ser referência nacional em soluções de marketing digital que geram impacto real para nossos clientes.",
   values: ["Criatividade", "Resultados", "Transparência", "Inovação", "Parceria"],
   email: "vokeagencyoficial@gmail.com",
-  phone: "(11) 99999-9999",
-  address: "São Paulo, SP - Brasil"
+  phone: "(51) 9 9520-5583",
+  whatsapp: "https://wa.me/qr/QONJLEITYLVUO1",
+  address: "Igrejinha, RS - Brasil",
+  instagram: "https://www.instagram.com/voke_agencyoficial/"
 };
