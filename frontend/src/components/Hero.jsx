@@ -20,18 +20,13 @@ const Hero = () => {
           {/* Logo/Brand */}
           <div className="mb-8">
             <img 
-              src="/api/placeholder/200/80" 
+              src="/logo-voke.png" 
               alt="Agência VOKE" 
-              className="mx-auto h-20 w-auto opacity-90"
+              className="mx-auto h-16 md:h-20 w-auto opacity-90"
               onError={(e) => {
                 e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'block';
               }}
             />
-            <div className="text-5xl md:text-7xl font-bold text-white tracking-wider hidden">
-              VOKE
-              <span className="text-orange-500 text-lg md:text-xl font-normal ml-2">AGENCY</span>
-            </div>
           </div>
 
           {/* Main Headline */}
