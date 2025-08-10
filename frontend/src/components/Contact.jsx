@@ -91,7 +91,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Telefone</h4>
-                  <p className="text-gray-300">{companyInfo.phone}</p>
+                  <a 
+                    href={companyInfo.whatsapp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-orange-500 transition-colors duration-300"
+                  >
+                    {companyInfo.phone}
+                  </a>
                 </div>
               </div>
 
