@@ -24,12 +24,23 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed top-[10%] left-[10%] w-[80%] flex justify-between items-center px-6 md:px-8 py-3 bg-black/15 backdrop-blur-md rounded-xl border border-white/10 transition-all duration-300 z-50 shadow-lg ${
+      className={`fixed top-[5%] left-[10%] w-[80%] flex justify-between items-center px-6 md:px-8 py-3 bg-black/15 backdrop-blur-md rounded-xl border border-white/10 transition-all duration-300 z-50 shadow-lg ${
         isScrolled ? 'bg-black/30 py-2 px-5' : ''
       }`}
     >
-      <div className="text-xl md:text-2xl font-bold text-white tracking-wider">
-        Agência Voke
+      <div className="h-8 md:h-10">
+        <img 
+          src="/logo-voke.png" 
+          alt="Agência VOKE" 
+          className="h-full w-auto"
+          onError={(e) => {
+            e.target.style.display = 'none';
+            e.target.nextSibling.style.display = 'block';
+          }}
+        />
+        <div className="text-xl md:text-2xl font-bold text-white tracking-wider hidden">
+          Agência Voke
+        </div>
       </div>
 
       {/* Desktop Menu */}
